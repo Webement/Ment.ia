@@ -112,11 +112,15 @@ nav.scrolled {
   justify-content: space-between;
 }
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 22px;
   font-weight: 800;
   color: white;
   letter-spacing: -.5px;
 }
+.logo img { width: 36px; height: 36px; }
 .logo span { color: var(--accent); }
 .nav-links {
   display: flex;
@@ -1010,7 +1014,7 @@ footer {
 <!-- ══ NAVBAR ══════════════════════════════════ -->
 <nav id="navbar">
   <div class="container nav-inner">
-    <div class="logo">Ment<span>.</span>ia</div>
+    <div class="logo"><img src="favicon.svg" alt="Ment.ia logo">Ment<span>.</span>ia</div>
     <ul class="nav-links">
       <li><a href="#problems">Le problème</a></li>
       <li><a href="#features">Fonctionnalités</a></li>
